@@ -1,0 +1,13 @@
+name: cap-5610-machine-learning
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - numpy
+  - keras
+  - poetry
+  - pillow
+  - tensorflow
+  - scikit-learn
+  - scikit-image
