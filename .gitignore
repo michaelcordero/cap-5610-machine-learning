@@ -78,4 +78,5 @@ fabric.properties
 env/
 
 # jupyter
+.idea/
 .idea/jupyter-settings.xml
