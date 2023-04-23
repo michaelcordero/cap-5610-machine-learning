@@ -37,7 +37,7 @@ def problem_4(data: np.array, true_labels: np.array):
     # ll = np.sum(np.log(predicted_probs))
     # print(ll)
     # chat gpt
-    chat_predicted = np.array([1, 1, 1, 1, 1])  # data[np.arange(data.shape[0]), true_labels]
+    chat_predicted = data[np.arange(data.shape[0]), true_labels]
     chat_ll = np.sum(np.log(chat_predicted))
     print(chat_ll)
 
