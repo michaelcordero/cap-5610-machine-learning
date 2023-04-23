@@ -10,4 +10,4 @@ dependencies:
   - pillow
   - tensorflow
   - scikit-learn
-
+  - scikit-image
